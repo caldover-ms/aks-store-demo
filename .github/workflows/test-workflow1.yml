@@ -44,7 +44,7 @@ env:
   CLUSTER_NAME: ca-standard1
   CLUSTER_RESOURCE_GROUP: ca-standard1_group
   CLUSTER_RESOURCE_TYPE: Microsoft.ContainerService/managedClusters
-  DEPLOYMENT_MANIFEST_PATH: ./manifests
+  DEPLOYMENT_MANIFEST_PATH: ./src/product-service/manifests
   DOCKER_FILE: ./src/product-service/Dockerfile
   BUILD_CONTEXT_PATH: ./src/product-service
   NAMESPACE: sample-app-namespace-1739991770521
