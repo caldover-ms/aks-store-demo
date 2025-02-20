@@ -235,7 +235,7 @@ spec:
         "kubernetes.io/os": linux
       containers:
       - name: store-front
-        image: ghcr.io/azure-samples/aks-store-demo/store-front:latest
+        image: registry1739988756439.azurecr.io/image-workflow-1740010218682:latest
         ports:
         - containerPort: 8080
           name: store-front
